@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Cambria", sans-serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(253, 250, 250, 0.505),rgba(250,250,250,0.55)), url(images/bckgrnd.jpg);
+    }
+    #container{
+        width: 700px;
+        height: 480px;
+        display: center;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    #login{
+        width: 400px;
+    
+    }
+    form{
+        width: 250px;
+        margin: 60px auto;
+    }
+    h1{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+    hr{
+        border-top: 2px solid rgba(68, 172, 118, 0.932);
+    }
+    
+    label{
+        text-align: left;
+        margin-left: 90px;
+        margin-bottom: -15px;
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px;
+    }
+    #input{
+        margin-top: -50px;
+        text-align: center;
+    }
+    input{
+        text-align: left;
+        width: 75%;
+        margin-bottom: 3px;
+        margin-left: 90px;
+        border: none;
+        outline: none;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    .submit{
+        text-align: center;
+        margin-left: 225px;
+        border: none;
+        outline: none;
+        padding: 8px;
+        width: 252px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 5px;
+        background: rgba(68, 172, 118, 0.932);
+    }
+    .submit:hover{
+        background: rgba(11, 17, 14, 0.932);
+    }
+    select { 
+        text-align: left;
+        margin-left: 90px;
+        margin-top: 20px;
+        margin-bottom: -5px;
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px;
+    }
+    p{
+        margin: 20px;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Login SIGEMOLONG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="judul">
+        <h1>SIGEMOLONG</h1>
+        </div>
+    
+        <div id="input">
+            <form action="" method="post">
+                <h0>Selamat Datang</h0>
+            </div>
+            <div>
+                <label>E-mail</label><br>
+                <input type="text" placeholder="abc@exampl.com">
+            </div>   
+            <div>
+                <label>Password</label><br>
+                <input type="password" placeholder="Masukkan Password">
+                <form-group">
+            <label for="pilihan_user">Pilihan User</label> 
+            <select name='pilihan_user' class="select">
+                <option value='user'>user</option>
+                <option value='admin'>admin</option>
+              </select>
+            </div>
+            <a href="exploremap.html"><button type="button" class="submit">Submit</button></a>
+                    <p>Belum Punya Akun? <a href="register.html">Registrasi</a></p>
+            </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
